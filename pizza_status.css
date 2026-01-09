@@ -1,0 +1,219 @@
+
+  /* CSS for pizza tracker */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+  }
+
+  .pizza-tracker {
+    text-align: center;
+    margin: 50px auto;
+  }
+
+  .pizza-step {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    width: 200px; /* Adjust the width as needed */
+  }
+
+  .pizza-step-icon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .pizza-step-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 130%;
+    max-height: 130%;
+  }
+
+  .pizza-step-text {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    margin-top: 35px;
+  }
+
+  .pizza-step-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .pizza-step-bar-full {
+    height: 100%;
+    background-color: #55c57a;
+    border-radius: 5px;
+  }
+
+  .pizza-step-bar-fill {
+    height: 100%;
+    background-color: #55c57a;
+    border-radius: 5px;
+    animation: fillAnimation 5s linear;
+  }
+
+  @keyframes fillAnimation {
+    0% { width: 0; }
+    100% { width: 100%; }
+  }
+
+  .order-details {
+    margin: 3% auto;
+    max-width: 50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .order-details-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #333;
+  }
+
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .food-name {
+    font-weight: bold;
+  }
+
+  .quantity-price {
+    display: flex;
+    align-items: center;
+  }
+
+  .quantity-label,
+  .price-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .price-label {
+    color: #55c57a;
+  }
+
+  .total-price {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+  }
+
+  .customer-info {
+    margin-bottom: 20px;
+  }
+
+  .customer-info span {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .tax {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .received{
+    margin: 2% 30% 0 30%;
+  }
+
+  .received a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    margin: 1% 40% 0 40%;
+    padding: 1%;
+    border-radius: 0.2em;
+  }
+
+  .cancel a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin: 2% 45% 0 45%;
+    padding: 0.5%;
+    border-radius: 0.2em;
+  }
+
+  .list{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 10% 50% 20% 20%;
+    background-color: white;
+    margin: 1%;
+    padding-bottom: 2%;
+    line-height: 2em;
+    color: #4C4C6D;
+    word-wrap: break-word;
+    text-transform: capitalize;
+    border-bottom: 1.5px solid;
+    border-color: black;
+}
+
+  .list span{
+    margin-left: 45%;
+}
+
+.image{
+    width: 10rem;
+    height: 6em;
+    margin: 20% 0 0 40%;
+    border-radius: 1em;
+}
+
+.quantity{
+    margin: auto 60% auto 40%;
+}
+
+.price{
+    margin: auto 0 auto 37%;
+}
+
+.blank{
+  background-color: white;
+  margin: -1% 1% 1% 1%;
+  padding-bottom: 2%;
+}
+
+.payment{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: -1% 0 2% 50%;
+    text-align: left;
+    color: #4C4C6D;
+    border-bottom: 2px solid #0505B2;
+}   
+
+.time-date{
+  display: flex;
+  justify-content: space-between;
+}
+
+.date{
+  text-align: right;
+}
+
+.time{
+  text-align: left;
+}

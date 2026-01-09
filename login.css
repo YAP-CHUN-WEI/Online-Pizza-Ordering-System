@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url("Img/Sign_in.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container {
+	height:100%;
+	width:100%;
+}
+.form {
+	width:400px;
+	height:540px;
+	position:relative;
+	margin:6% auto;
+	background:#fff;
+	padding:5px;
+	overflow:hidden;
+}
+.button-box {
+	width:220px;
+	margin: 35px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn {
+  padding: 15px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  font-weight:bold;
+  font-size:12px;
+}
+.input-group{
+	top:240px;
+	position:absolute;
+	width:280px;
+	transition:0.5s;
+}
+.submit-btn{
+	width:85%;
+	padding:10px 30px;
+	cursor:pointer;
+	display:block;
+	margin:auto;
+	outline:none;
+	border-radius:30px;
+}
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition:0.5s;
+}
+#customer-login{
+	left:50px;
+}
+#admin-login{
+	left:450px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	color:red;
+	font-weight:bold;
+}
+.link-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.link-group .forpass {
+  text-align: right;
+}
+
+.link-group .create-account {
+  text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+	background-color: #f9f9f9;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 300px;
+	font-size: 16px;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	outline: none;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	padding: 15px;
+	margin-bottom: 20px;
+	width: 100%;
+	max-width: 300px;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+	background-color: #222;
+}
+img {
+  display: block;
+  margin: 0 auto; 
+}
+a img{
+	height:90px;
+	width:110px;
+}
+#footer{
+	height: 229px;
+}

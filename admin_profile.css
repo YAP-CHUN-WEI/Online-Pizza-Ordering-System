@@ -1,0 +1,99 @@
+body{
+    background-image: url("img/background2.jpg"); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 0.5%;
+    width: 60%;
+    border-radius: 1em;
+    background-color: lightgrey;
+}
+.title{
+    margin: 5% 25% 0 25%;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5em;
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+}
+.details{
+    font-size: 1.5em;
+    color: maroon;
+    margin: 0 0 3% 10%;
+    line-height: 2em;
+}
+
+.button_edit {
+  margin-bottom: 30px;
+  margin-left: 8%;
+}
+
+.button_logout {
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left:20px;
+}
+button :hover{
+	background-color:red;
+}
+
+.button_edit button:first-child {
+  background-color: bisque;
+  color: black;
+  width: 40%;
+  border-radius: 1em;
+}
+
+.button_edit button:last-child {
+  background-color: bisque;
+  color: black;
+  width: 40%;
+  border-radius: 1em;
+}
+
+.button_logout button {
+  background-color: #726E6D;
+  color: white;
+  width: 25%;
+  border-radius: 1em;
+  margin-left:35%;
+  margin-top:4%;
+}
+.details input[type="text"] {
+  border: none;
+  background-color: lightgrey;
+  font-size: 1em; 
+  color: inherit; 
+  outline: none; 
+  padding: 0; 
+  margin: 20px; 
+  width: auto; 
+}
+ .edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  margin-left:0px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.details input[type="text"].editable {
+  border: none;
+  background-color: white;
+  font-size: 1em;
+  padding: 10px;
+  margin: 20px;
+  width: auto;
+}
+

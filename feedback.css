@@ -1,0 +1,50 @@
+body{
+	background-color: bisque;
+	background-attachment: fixed;
+}
+.feedback-list {
+	margin: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	margin: 20px;
+}
+
+table {
+	  width: 100%;
+	  border-collapse: collapse;
+	  margin-top: 10px;
+}
+
+thead {
+	background-color: #f2f2f2;
+}
+
+th, td {
+	  padding: 10px;
+	  text-align: left;
+}
+
+th {
+	font-weight: bold;
+}
+
+.deletebtn {
+	
+	background-color: #ff0000;
+	color: #fff;
+	border: none;
+	padding: 6px 12px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input.readonly-input {
+  border: none;
+  background-color: transparent;
+  font-size: 1em;
+  color: inherit;
+  outline: none;
+  width: auto;
+}

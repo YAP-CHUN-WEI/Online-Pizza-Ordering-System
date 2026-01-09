@@ -1,0 +1,65 @@
+body{
+    background-image: url("img/background2.jpg"); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-top: 0.5%;
+    width: 60%;
+    border-radius: 1em;
+    background-color: #dfdfdf;
+}
+.info{
+	margin: 0 auto;
+	padding:10px;
+}
+.info p {
+  display: flex;
+  align-items: center;
+}
+
+.info input[type="text"] {
+  border: none;
+  background: none; 
+  font-size: 1em; 
+  color: inherit; 
+  outline: none; 
+  padding: 0; 
+  margin: 20px; 
+  width: auto; 
+}
+.edit_info input[type="text"] { 
+  font-size: 1em; 
+  outline: none;  
+  margin: 20px; 
+  width: auto; 
+}
+
+.title{
+    margin: 5% 30% 0 30%;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 5em;
+    color: white;
+    font-weight: bold;
+    background-color: brown;
+}
+.details{
+    font-size: 1.5em;
+    color: maroon;
+    margin: 5% 0 5% 10%;
+    line-height: 2em;
+}
+.button_logout{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.button_edit{
+    margin-top: 5%;
+}
+.button_order_history{
+    margin-top: 2%;
+}

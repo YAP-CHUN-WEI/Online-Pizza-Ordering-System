@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;    
+    background-attachment: fixed;
+}
+
+.content{
+    text-align: center;
+    margin: 3% auto 2% auto;
+    padding: 0 0 1% 0;;
+    width: 60%;
+    background-color: #FBB117;
+    line-height: 2em;
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1em;
+    color: #0505B2;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 10% 10% 50% 10% 20%;
+    padding: 2%;
+    border-bottom: 2px solid;
+    border-color: bisque;
+}
+
+.list span{
+    color: black;
+}
+
+.image{
+    width: 10rem;
+    height: 6em;
+    margin: 20% 0 0 40%;
+    border-radius: 1em;
+}
+
+.payment{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: 2% 0 2% 50%;
+    text-align: left;
+    border-bottom: 2px solid #0505B2;
+}   
+
+.backPTP{
+    display: grid;
+    grid-template-columns: 30% 40%;
+    margin: 2% 0 2% 20%;
+    text-align: left;
+}  
+
+.btn{
+    margin: auto 0 auto 0;
+    line-height: 3.5em;
+}
+
+.back{
+    background-color: #0505B2;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    position: relative;
+    right: 15%;
+    border-radius: 0.5em;
+}
+
+.editbtn{
+    text-decoration: none;
+    background-color: white;
+    color: #0505B2;
+    padding: 15%;
+    border-radius: 0.5em;
+}
+
+.deletebtn{
+    text-decoration: none;
+    background-color: white;
+    color: #0505B2;
+    padding: 15%;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.proceedTP{
+    background-color: #0505B2;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding: 1%;
+    position: relative;
+    left: 45%;
+    border-radius: 0.5em;
+}
+
+.quantity{
+    margin: auto 60% auto 0;
+}
+
+.price{
+    margin: auto 0 auto 33%;
+}

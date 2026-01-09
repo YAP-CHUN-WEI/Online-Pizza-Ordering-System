@@ -1,0 +1,112 @@
+body{
+    background-color: bisque ;
+    background-attachment: fixed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content{
+    width: 70%;
+    margin: 5% auto 5% auto;
+}
+
+.order{
+    display: grid;
+    grid-template-columns: 5% 10% 15% 23% 10% 15% 12% 10%;
+    background-color: #dfdfdf;
+    margin: 1%;
+    line-height: 2em;
+    color: #080202;
+    word-wrap: break-word;
+}
+
+.item{
+    border: 1px dotted white;
+    word-wrap: break-word;
+    padding: 1% 5%;
+}
+
+.item-last{
+    word-wrap: break-word;
+    padding: 1% 5%;
+}
+
+.item p, .item-last p{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.order_empty{
+    background-color: #dfdfdf;
+    margin: 1%;
+    line-height: 5em;
+    color: #080202;
+    text-align: center;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 10% 40% 25% 25%;
+    background-color: white;
+    margin: -1% 1% 1% 1%;
+    padding: 1% 0 1% 0;
+    line-height: 2em;
+    color: #4C4C6D;
+    word-wrap: break-word;
+    text-transform: capitalize;
+    border-bottom: 2px solid;
+    border-color: bisque;
+}
+
+span{
+    margin-left: 45%;
+}
+
+.image{
+    width: 10rem;
+    height: 6em;
+    margin: 20% 0 0 40%;
+    border-radius: 1em;
+}
+
+.quantity{
+    margin: auto 60% auto 40%;
+}
+
+.price{
+    margin: auto 0 auto 50%;
+}
+
+.blank{
+    background-color: white;
+    margin: -1% 1% 1% 1%;
+    padding: 2% 0;
+}
+
+.payment{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    margin: -1% 0 2% 50%;
+    text-align: left;
+    color: #4C4C6D;
+    border-bottom: 2px solid #0505B2;
+}   
+
+.successful{
+    display: inline-block;
+    color: blue;
+}
+
+.cancel{
+    display: inline-block;
+    color: red;
+}
+
+.status{
+    margin: 2% 30% 0 30%;
+    line-height: 1.5em;
+    font-size: 1.05em;
+    background-color: #E3F9A6;
+    border-radius: 1em;
+    text-align: center;
+}

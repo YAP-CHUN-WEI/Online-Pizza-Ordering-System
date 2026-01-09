@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: bisque;}
+.content{
+    margin: 5% 10% 0 10%;
+}
+.content h1{
+    text-align: center;
+}
+.content h2{
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+.content p{
+    word-wrap: break-word;
+    margin-bottom: 2%;
+}
+.breakline{
+    margin-top: 20%;
+}

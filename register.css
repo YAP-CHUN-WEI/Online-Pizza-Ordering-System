@@ -1,0 +1,78 @@
+body{
+	background-image:url("Img/Sign_up3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family:sans-serif;
+}
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px;
+  width: 140px;
+  height: 120px;
+}
+
+.signup-box{
+	width:360px;
+	height:600px;
+	float:right;
+	margin-top:70px;
+	margin-right:180px;
+	background-color:white;
+	border-radius:5px;
+}
+h1{
+	text-align:center;
+	padding-top:15px;
+}
+h4{
+	text-align:center;
+}
+form{
+	width:300px;
+	margin-left:20px;
+}
+form label{
+	display:flex;
+	margin-top:20px;
+	font-size:18px;
+}
+form input{
+	width:100%;
+	padding:7px;
+	border:none;
+	border:1px solid gray;
+	border-radius:6px;
+	outline:none;
+}
+input[type="submit"]{
+	width:320px;
+	height:35px;
+	margin-top:20px;
+	border:none;
+	background-color:#49c1a2;
+	color:white;
+	font-size:18px;
+}
+input[type="submit"]:hover {
+  background-color: #37a18e;
+  cursor: pointer;
+}
+
+p{
+	text-align:center;
+	padding-top:20px;
+	font-size:15px;
+	margin-top:-10px;
+	color:white;
+}
+p a {
+  color: #49c1a2;
+  transition: color 0.3s ease;
+}
+
+p a:hover {
+  color: #37a18e;
+  text-decoration: underline;
+}

@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: bisque;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+table img {
+  width: 30%;
+  height: 20%;
+}
+
+table td {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  text-transform: capitalize;
+}
+
+.list{
+  display: grid;
+  grid-template-columns: 10% 40% 25% 25%;
+  background-color: white;
+  margin: -1% 1% 1% 1%;
+  padding-bottom: 2%;
+  line-height: 2em;
+  color: #4C4C6D;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+span{
+  margin-left: 45%;
+}
+
+.image{
+  width: 10rem;
+  height: 6em;
+  margin: 20% 0 0 40%;
+  border-radius: 1em;
+}
+
+.quantity{
+  margin: auto 60% auto 40%;
+}
+
+.price{
+  margin: auto 0 auto 40%;
+}
+
+.blank{
+  border-bottom: 2px solid blue;
+}
+
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.container input[type="text"],
+.container input[type="tel"],
+.container textarea {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 15px;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.container textarea {
+  resize: vertical;
+}
+
+.container p {
+  margin: 10px 0;
+}
+
+.container:last-child {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+  table img {
+    width: 100%;
+    height: auto;
+  }
+}
+#rtext{
+	font-size:1em;
+	font-weight:bold;
+	margin-bottom:10px;
+	text-align:center;
+}
+.payment {
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+  border-radius: 6px;
+}
+
+.pay {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+label img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.pay:hover {
+  background-color: #f7f7f7;
+}
+
+.pay + .pay {
+  margin-top: 10px;
+}
+button[type="submit"]{
+	width:320px;
+	border-radius: 6px;
+	height:35px;
+	margin-top:6px;
+	border:none;
+	background-color:#49c1a2;
+	color:white;
+	font-size:18px;
+}
+button[type="submit"]:hover {
+  background-color: #37a18e;
+  cursor: pointer;
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #000;
+  z-index: 999;
+}
+
+.popup h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.popup p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.con2 {
+  background-color: #f2f2f2;
+  padding: 2%;
+  border: 1px solid #ccc;
+  font-size:1em;
+  display: grid;
+  line-height: 2em;
+  grid-template-columns: 85% 15%;
+}
+
+.con2 div {
+  margin: 0 7%;
+}
+
+
+

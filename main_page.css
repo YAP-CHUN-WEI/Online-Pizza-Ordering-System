@@ -1,0 +1,102 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+iframe{
+	border: 2px solid  black;
+    width: 100%;
+}
+.map iframe {
+    height: 400px;
+}
+#footer{
+	height: 229px;
+}
+.container-head{
+	background-image:url("Img/nico.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+	background-repeat: no-repeat;
+}
+#second{
+	padding:20px 30px 30px 30px;
+	background-color: bisque;
+}
+.map-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.map-wrapper {
+  flex: 1;
+}
+
+.text-wrapper {
+  flex: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#map-text {
+  margin: 0;
+  letter-spacing:0.04em;
+  line-height:2em;
+  padding:10px;
+}
+.location{
+	text-align:center;
+}
+.location h1{
+	margin:0 10px 10px 10px;
+	text-align:center;
+	padding:10px;
+	display: inline-block;
+	flex-wrap:wrap;
+}
+.menu{
+	text-align:center;
+}
+.menu h1{
+	margin:10px;
+	padding:10px;
+	display: inline-block;
+}
+.menu-container{
+	padding:0 25px 25px 25px;
+}
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.menu-container td {
+    padding: 5px;
+    text-align: center;
+}
+.menu-container img {
+  max-height: 180px;
+  max-width: 100%;
+  border: 5px solid black;
+  transition: border 0.3s ease-in-out;
+}
+
+.menu-container img:hover {
+  border: 5px solid red;
+}
+
+.seemore-link {
+  color: #0077cc;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.seemore-link:hover {
+  background-color: #e0e0e0;
+}

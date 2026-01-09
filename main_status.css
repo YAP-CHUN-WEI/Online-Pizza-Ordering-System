@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+.order_list{
+    position: fixed;
+    z-index: 1;
+    margin: 0 45%;
+    width: 15%;
+    bottom: 0;
+}
+
+.order_content{
+    display: block;
+    margin-bottom: 3%;
+    background-color: lime;
+    text-align: center;
+    line-height: 2em;
+    border-radius: 1em;
+}
+
+.order_list a{
+    text-decoration: none;
+    color: black;  
+}
+
+.order_list a:hover{
+    text-decoration: none;
+    background-color: lime;
+    color: black;
+}
